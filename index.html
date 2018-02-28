@@ -20,7 +20,7 @@
     <form id="main-content">
 
       <section id="enter-guess">
-        <input type="text" id="guessed-number" placeholder="Enter your guess"> 
+        <input type="number" id="guessed-number" placeholder="Enter your guess"> 
       </section>
 
       <section id="range">
@@ -31,8 +31,8 @@
       </section>
 
       <section id="guess-btns">
-        <button type="submit" id="submit-button" >Submit Guess</button>
-        <button type="button" id="clear-button" class="flt-rt" disabled>Clear</button>
+        <button type="submit" id="submit-button">Submit Guess</button>
+        <button type="reset" id="clear-button" class="flt-rt">Clear</button>
       </section>
 
       <section id="guess-results">
@@ -47,22 +47,21 @@
           <p><span>Your min range will decrease by 10 and max will increase by 10.</span></p>
           <div id="play-again-btns">
             <button type="button" id="play-again-btn">Play Again?</button>
-            <button type="reset" id="play-again-reset-btn" class="flt-rt"Start New Game</button>
+            <button type="reset" id="play-again-reset-btn" class="flt-rt">Start New Game</button>
           </div>
         </article>
       </section>
 
       <section id="reset-btn">
-        <button id="reset-button" disabled>Reset</button>
+        <button id ="reset-button">Reset</button>
       </section>      
 
     </form>
 
   </main>
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="jquery-3.3.1.min.js"><\/script>')</script>
-<script src="script.js"></script>
+  <script src="script.js"></script>
+  
 </body>
 
 </html>
